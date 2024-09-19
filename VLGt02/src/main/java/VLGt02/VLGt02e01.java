@@ -1,4 +1,4 @@
-package src.main.java.vlgt02;
+package VLGt02;
 
 import java.util.Scanner;
 
@@ -11,9 +11,9 @@ public class VLGt02e01 {
     private static final Scanner teclado = new Scanner(System.in);
     
     public static void main(String[] args) {
-        String a;
+        String option;
         System.out.print("Introduce el apartado: ");
-        String option = teclado.next();
+        option = teclado.next();
         selectOption(option);
     }
 

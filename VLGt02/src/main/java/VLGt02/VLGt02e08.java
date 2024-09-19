@@ -1,5 +1,5 @@
 
-package src.main.java.vlgt02;
+package VLGt02;
 
 import java.util.Scanner;
 

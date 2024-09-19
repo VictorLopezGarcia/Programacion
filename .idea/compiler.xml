@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="VLGt02" />
         <module name="VLGt01" />
+        <module name="VLGt03" />
       </profile>
     </annotationProcessing>
   </component>
