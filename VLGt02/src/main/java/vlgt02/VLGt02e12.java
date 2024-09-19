@@ -1,5 +1,5 @@
 
-package vlgt02;
+package src.main.java.vlgt02;
 
 import java.util.Scanner;
 
@@ -24,9 +24,13 @@ public class VLGt02e12 {
         m2 = teclado.nextInt();
         System.out.println("Introduce el ano 2: ");
         a2 = teclado.nextInt();
-        
-        
-        
+        if(a>a2 || a==a2 && m > m2 || m==m2 && d > d2){
+            System.out.println("La fecha: "+ d +"/"+ m +"/"+ a +" es mayor");
+        }else if(d == d2){
+            System.out.println("Las fechas son las mismas.");
+        }else{
+            System.out.println("La fecha: "+ d2 +"/"+ m2 +"/"+ a2 +" es mayor");
+        }
     }
     
 }

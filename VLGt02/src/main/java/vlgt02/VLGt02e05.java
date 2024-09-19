@@ -1,4 +1,4 @@
-package vlgt02;
+package src.main.java.vlgt02;
 
 import java.util.Scanner;
 
