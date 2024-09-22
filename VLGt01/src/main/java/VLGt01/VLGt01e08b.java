@@ -17,18 +17,18 @@ public class VLGt01e08b {
         sol = 0;
         Scanner teclado = new Scanner(System.in);
         System.out.print("Introduce la edad de la primera persona: ");
-        p = teclado.nextInt();
+        p = teclado.nextDouble();
         sol += p;
         System.out.print("Introduce la edad de la segunda persona: ");
-        p = teclado.nextInt();
+        p = teclado.nextDouble();
         sol += p;
         System.out.print("Introduce la edad de la tercera persona: ");
-        p = teclado.nextInt();
+        p = teclado.nextDouble();
         sol += p;
         System.out.print("Introduce la edad de la cuarta persona: ");
-        p = teclado.nextInt();
+        p = teclado.nextDouble();
         sol += p;
         sol /= 4;
-        System.out.println(String.format("La media de edades de las 4 personas es de %.2f años.", sol));
+        System.out.printf("La media de edades de las 4 personas es de %.2f años.%n", sol);
     }
 }

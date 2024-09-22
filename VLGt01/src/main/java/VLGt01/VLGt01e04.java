@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package VLGt01;
 
 import java.util.Scanner;
@@ -25,9 +22,9 @@ public class VLGt01e04 {
         System.out.print("Introduce el numero de sobresalientes: ");
         sob = teclado.nextInt();
         sol = (double)(suf+not+sob)/(susp+suf+not+sob)*100;
-        System.out.println(String.format("Han aprobado el %.2f de los alumnos.", sol));
+        System.out.printf("Han aprobado el %.2f de los alumnos.%n", sol);
         sol = (double)(not+sob)/(susp+suf+not+sob)*100;
-        System.out.println(String.format("El %.2f son notables y sobresalientes.", sol));
+        System.out.printf("El %.2f son notables y sobresalientes.%n", sol);
     }
     
 }

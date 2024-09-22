@@ -14,11 +14,11 @@ public class VLGt01e10 {
         Scanner teclado = new Scanner(System.in);
 
         System.out.print("Introduce var1: ");
-        var1 = Math.abs(teclado.nextInt());
+        var1 = Math.abs(teclado.nextDouble());
         System.out.print("Introduce var2: ");
-        var2 = Math.abs(teclado.nextInt());
+        var2 = Math.abs(teclado.nextDouble());
         sol = var1*var2;
-        System.out.println(String.format("El area encerrada por las coordenadas introducidas es de %.2f.", sol));
+        System.out.printf("El area encerrada por las coordenadas introducidas es de %.2f.", sol);
     }
     
 }
