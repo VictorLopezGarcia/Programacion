@@ -22,7 +22,7 @@ public class VLGt01e03 {
         sol = a - b;
         System.out.println(a + " - " + b + " = "+ sol);
         try {
-            sol =  a / b;
+            sol =  (double) a / b;
         } catch (Exception e){
             sol = 0;
         }

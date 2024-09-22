@@ -12,7 +12,7 @@ public class VLGt01e01 {
         double eur;
         Scanner teclado = new Scanner(System.in);
         System.out.print("Introduce el valor en euros: ");
-        eur = teclado.nextInt();
+        eur = teclado.nextDouble();
         System.out.println(eur + "€ son " + eur*1.14 + "$");
     }
 }
