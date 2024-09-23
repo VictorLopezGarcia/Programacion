@@ -21,18 +21,9 @@ public class VLGt02e09 {
             if(hora >= 9 && hora <= 14){
                 System.out.println("Hay bus ");
                 switch (hora) {
-                    case 10 -> {
-                        System.out.print("todos los dias.");
-                        break;
-                    }
-                    case 12 -> {
-                        System.out.print("el jueves y el domingo.");
-                        break;
-                    }
-                    case 14 -> {
-                        System.out.print("todos los dias menos el sabado.");
-                        break;
-                    }
+                    case 10 -> System.out.print("todos los dias.");
+                    case 12 -> System.out.print("el jueves y el domingo.");
+                    case 14 -> System.out.print("todos los dias menos el sabado.");
                     default ->
                         System.out.print(" el domingo.");
                 }
