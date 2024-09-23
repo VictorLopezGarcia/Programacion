@@ -11,9 +11,8 @@ public class VLGt01e06 {
         double cost, sol;
         Scanner teclado = new Scanner(System.in);
         System.out.print("Introduce el importe del vehículo: ");
-        cost = teclado.nextInt();
+        cost = teclado.nextDouble();
         sol = cost*gan*imp;
-        System.out.println(String.format("El coste del vehiculo despues de impuestos es de: %.2f€"
-                , sol));
+        System.out.printf("El coste del vehiculo despues de impuestos es de: %.2f€%n", sol);
     }
 }

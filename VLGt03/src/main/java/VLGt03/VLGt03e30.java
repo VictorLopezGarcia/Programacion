@@ -1,5 +1,6 @@
 package VLGt03;
 
+
 import java.util.Scanner;
 
 public class VLGt03e30 {
