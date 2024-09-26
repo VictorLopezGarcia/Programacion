@@ -1,0 +1,4 @@
+En este caso a diferencia del anterior, como la funcion no modifica el valor de saldo, esta no va a
+ser modificada. sin embargo al comprobar si tiene mas de 1000 euros va a dar error ya que
+el valor que esta comprobando es el saldo real (900, tras ingresar 400) añadiendo otros 400
+con lo que daria true siendo false el valor real.
