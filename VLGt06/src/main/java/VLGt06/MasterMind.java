@@ -75,4 +75,8 @@ public class MasterMind {
     public int[] getIntento() {
         return intento;
     }
+
+    public int getMaxIntentos() {
+        return maxIntentos;
+    }
 }
