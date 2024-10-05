@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="VLGt06" />
-        <module name="VLGt05" />
         <module name="VLGt02" />
         <module name="VLGt01" />
         <module name="VLGt04" />
         <module name="VLGt03" />
+        <module name="VLGt06" />
+        <module name="VLGt05" />
+        <module name="VLGt07" />
       </profile>
     </annotationProcessing>
   </component>
