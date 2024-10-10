@@ -16,8 +16,8 @@ public class Parking2 {
 
     public void mostrar(){
         for (int i = 0; i < plaza; i++) {
-            System.out.println(plazas[i][0]);
-            System.out.print("/"+calcularHora(plazas[i][1]));
+            System.out.print(plazas[i][0]);
+            System.out.println("/"+calcularHora(plazas[i][1]));
         }
     }
 
@@ -34,7 +34,7 @@ public class Parking2 {
     private String calcularHora(String tiempo){
         long tiempoInicio = Long.parseLong(tiempo);
         Calendar c = Calendar.getInstance();
-        c.setTimeInMillis(tiempoInicio-System.currentTimeMillis());
+        c.setTimeInMillis(System.currentTimeMillis()-tiempoInicio-3600000);
         return c.get(Calendar.HOUR_OF_DAY)+":"+c.get(Calendar.MINUTE)+":"+c.get(Calendar.SECOND);
     }
 

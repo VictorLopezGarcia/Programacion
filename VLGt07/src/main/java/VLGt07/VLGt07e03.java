@@ -11,7 +11,7 @@ public class VLGt07e03 {
         do {
             System.out.println("Escoge una opción:");
             System.out.println("a) Llenar el Array con valores al azar para todos los meses (entre 0 y 40).");
-            System.out.println("b) Mostrar la temperatura media del año.");
+            System.out.println("b) Mostrar la temperatura mediAnual del año.");
             System.out.println("c) Mostrar los meses en los que hizo más de 30 grados");
             System.out.println("d) Decir si hay algún mes con más de 30 grados");
             System.out.println("e) Decir si hay algún mes con más de 30 grados");
@@ -63,7 +63,7 @@ public class VLGt07e03 {
         for (int temperaturaMese : temperaturaMeses) {
             media += temperaturaMese;
         }
-        System.out.println("La temperatura media del año es: " + media / temperaturaMeses.length);
+        System.out.println("La temperatura mediAnual del año es: " + media / temperaturaMeses.length);
     }
 
     public static void c() {
