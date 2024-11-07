@@ -3,7 +3,7 @@ package VLGt07;
 
 import java.util.Scanner;
 
-public class VLGt07e19 {
+public class  VLGt07e19 {
 
     public static CarritoCompra2 carrito = new CarritoCompra2();
     public static Scanner teclado = new Scanner(System.in);
