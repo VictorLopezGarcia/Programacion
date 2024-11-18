@@ -120,7 +120,7 @@ public class VLGt04e01 {
     public static void m(String var) {
         String reverse = "";
         for (int i = var.length()-1; i >= 0; i--) {
-            reverse = var.charAt(i) + reverse;
+            reverse = reverse + var.charAt(i);
         }
         if(reverse.equals(var)){
             System.out.println("La cadena es un palíndromo");

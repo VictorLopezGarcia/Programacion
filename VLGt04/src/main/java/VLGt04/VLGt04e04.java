@@ -1,6 +1,5 @@
 package VLGt04;
 
-import java.util.Scanner;
 
 public class VLGt04e04 {
     public static void main(String[] args) {

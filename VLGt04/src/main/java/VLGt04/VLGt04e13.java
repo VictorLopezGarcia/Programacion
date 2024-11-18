@@ -20,7 +20,7 @@ public class VLGt04e13 {
                 hexadecimal = (char)(hex+55) + hexadecimal;
             }
             entrada = entrada/16;
-            }while(entrada!=0);
+        }while(entrada!=0);
 
         System.out.println("El número en hexadecimal es: "+hexadecimal);
 

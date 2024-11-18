@@ -12,6 +12,7 @@
         <module name="VLGt03" />
         <module name="VLGt06" />
         <module name="VLGt05" />
+        <module name="VLGt08" />
         <module name="VLGt07" />
       </profile>
     </annotationProcessing>
