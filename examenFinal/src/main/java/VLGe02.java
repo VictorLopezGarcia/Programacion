@@ -30,8 +30,8 @@ public class VLGe02 {
 
     private static char menor(String cadena) {
         char menor = cadena.charAt(0);
-        for (int i = 1; i < cadena.length(); i++) {
-            if(cadena.charAt(i) < cadena.charAt(i - 1)) {
+        for (int i = 0; i < cadena.length(); i++) {
+            if(cadena.charAt(i) < menor) {
                 menor = cadena.charAt(i);
             }
         }
