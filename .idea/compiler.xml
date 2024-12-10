@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="VLGt02" />
         <module name="VLGt01" />
+        <module name="examenFinal" />
         <module name="VLGt04" />
         <module name="VLGt03" />
         <module name="VLGt06" />
         <module name="VLGt05" />
         <module name="VLGt08" />
+        <module name="examen" />
         <module name="VLGt07" />
       </profile>
     </annotationProcessing>

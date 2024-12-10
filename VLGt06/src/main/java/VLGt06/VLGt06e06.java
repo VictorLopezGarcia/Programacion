@@ -6,9 +6,7 @@ public class VLGt06e06 {
 
     public static void main(String[] args) {
         System.out.println("Nim:");
-
         juego();
-
     }
 
     private static void juego(){
