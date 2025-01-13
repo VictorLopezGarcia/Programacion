@@ -1,5 +1,6 @@
 package VLGt07;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class VLGt07e30 {
@@ -20,14 +21,11 @@ public class VLGt07e30 {
         int num = teclado.nextInt();
 
         int [] array2 = funct(array, num);
-        System.out.println("Array original:");
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + " ");
-        }
+        System.out.println("Array original:"+ Arrays.toString(array));
+
+
         System.out.println("\nArray desplazado " + num + " posiciones:");
-        for (int i = 0; i < array2.length; i++) {
-            System.out.print(array2[i] + " ");
-        }
+        System.out.println("\n"+ Arrays.toString(array2));
 
     }
 

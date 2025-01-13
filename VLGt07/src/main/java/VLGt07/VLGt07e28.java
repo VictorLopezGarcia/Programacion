@@ -1,5 +1,6 @@
 package VLGt07;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class VLGt07e28 {
@@ -20,13 +21,11 @@ public class VLGt07e28 {
 
         int[] array2 = eliminarNum(array, num);
         System.out.println("Array original:");
-        for (int j : array) {
-            System.out.print(j + " ");
-        }
+        System.out.println("\n"+ Arrays.toString(array));
+
         System.out.println("\nArray sin el número " + num + ":");
-        for (int j : array2) {
-            System.out.print(j + " ");
-        }
+
+        System.out.println("\n"+ Arrays.toString(array2));
     }
 
     public static int[] eliminarNum(int[] array, int num){

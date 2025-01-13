@@ -25,9 +25,7 @@ public class VLGt07e34 {
         int [] array3 = funct(array, array2);
 
         System.out.println("El array resultante es:");
-        for (int i = 0; i < array3.length; i++) {
-            System.out.print(array3[i] + " ");
-        }
+        System.out.println("\n"+ java.util.Arrays.toString(array3));
 
     }
 

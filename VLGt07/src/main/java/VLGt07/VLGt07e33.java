@@ -15,12 +15,11 @@ public class VLGt07e33 {
             array[i] = teclado.nextInt();
         }
 
-        System.out.println("El mismo array con los ceros movidos a la dereche:");
+        System.out.println("El mismo array con los ceros movidos a la derecha:");
 
         int [] array2 = funct(array);
-        for (int i = 0; i < array2.length; i++) {
-            System.out.print(array2[i] + " ");
-        }
+        System.out.println("\n"+ java.util.Arrays.toString(array2));
+
     }
 
     public static int [] funct (int [] arr){
