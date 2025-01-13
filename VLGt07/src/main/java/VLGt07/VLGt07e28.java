@@ -20,27 +20,27 @@ public class VLGt07e28 {
 
         int[] array2 = eliminarNum(array, num);
         System.out.println("Array original:");
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + " ");
+        for (int j : array) {
+            System.out.print(j + " ");
         }
         System.out.println("\nArray sin el número " + num + ":");
-        for (int i = 0; i < array2.length; i++) {
-            System.out.print(array2[i] + " ");
+        for (int j : array2) {
+            System.out.print(j + " ");
         }
     }
 
     public static int[] eliminarNum(int[] array, int num){
         int contador = 0;
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] == num) {
+        for (int k : array) {
+            if (k == num) {
                 contador++;
             }
         }
         int[] array2 = new int[array.length - contador];
         int j = 0;
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] != num) {
-                array2[j] = array[i];
+        for (int k : array) {
+            if (k != num) {
+                array2[j] = k;
                 j++;
             }
         }
