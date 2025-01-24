@@ -1,4 +1,4 @@
-package VLGt07;
+package VLGt08;
 
 public class MovilPrepago {
 
@@ -14,6 +14,14 @@ public class MovilPrepago {
         costeMinutoLlamada = cML;
         costeConsumoMB = cMB;
         saldo = s;
+    }
+
+    public float getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(float saldo) {
+        this.saldo = saldo;
     }
 
     public void efectuarLlamada(int segundos) {
@@ -44,11 +52,33 @@ public class MovilPrepago {
         return saldo;
     }
 
-    public float getSaldo() {
-        return saldo;
+    @Override
+    public String toString() {
+        return "MovilPrepago{" +
+                "numeroMovil=" + numeroMovil +
+                ", saldo=" + saldo +
+                '}';
+    }
+}
+
+class MovilPlus extends MovilPrepago{
+    MovilPlus(long nM, float cEL, float cML, float cMB, float s) {
+        super(nM, cEL, cML, cMB, s);
     }
 
-    public void setSaldo(float saldo) {
-        this.saldo = saldo;
+    public void videollamada(int segundos){
+        super.navegar(segundos*2);
     }
-} //fin
+}
+
+class MovilTarifaPlana extends MovilPrepago{
+
+    MovilTarifaPlana(long nM, float cEL, float cML, float s) {
+        super(nM, cEL, cML, 0, s);
+    }
+
+    @Override
+    public void navegar(int mb) {
+
+    }
+}
