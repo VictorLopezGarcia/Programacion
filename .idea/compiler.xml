@@ -19,5 +19,8 @@
         <module name="VLGt07" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="VLGt09" target="23" />
+    </bytecodeTargetLevel>
   </component>
 </project>

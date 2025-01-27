@@ -8,7 +8,7 @@ public class MovilPrepago {
     final private float costeConsumoMB;
     private float saldo;
 
-    MovilPrepago(long nM, float cEL, float cML, float cMB, float s) {
+    public MovilPrepago(long nM, float cEL, float cML, float cMB, float s) {
         numeroMovil = nM;
         costeEstablecLlamada = cEL;
         costeMinutoLlamada = cML;
@@ -61,24 +61,3 @@ public class MovilPrepago {
     }
 }
 
-class MovilPlus extends MovilPrepago{
-    MovilPlus(long nM, float cEL, float cML, float cMB, float s) {
-        super(nM, cEL, cML, cMB, s);
-    }
-
-    public void videollamada(int segundos){
-        super.navegar(segundos*2);
-    }
-}
-
-class MovilTarifaPlana extends MovilPrepago{
-
-    MovilTarifaPlana(long nM, float cEL, float cML, float s) {
-        super(nM, cEL, cML, 0, s);
-    }
-
-    @Override
-    public void navegar(int mb) {
-
-    }
-}

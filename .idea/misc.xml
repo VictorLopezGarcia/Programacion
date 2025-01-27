@@ -16,7 +16,13 @@
         <option value="$PROJECT_DIR$/examen/pom.xml" />
         <option value="$PROJECT_DIR$/examenFinal/pom.xml" />
         <option value="$PROJECT_DIR$/examenP2ev/pom.xml" />
+        <option value="$PROJECT_DIR$/VLGt09/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/VLGt09/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="PWA">

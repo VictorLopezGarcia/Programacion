@@ -94,6 +94,9 @@ class Asalariado extends Trabajador {
         salarioFinal += horasExtras * precioHoraExtra;
     }
 
+    public float getSalarioFinal() {
+        return salarioFinal;
+    }
 }
 
 class ConsultorExterno extends Trabajador {
@@ -118,5 +121,7 @@ class ConsultorExterno extends Trabajador {
         salarioFinal = horasTrabajadas * precioHora;
     }
 
-
+    public float getSalarioFinal() {
+        return salarioFinal;
+    }
 }

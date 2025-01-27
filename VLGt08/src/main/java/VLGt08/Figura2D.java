@@ -4,10 +4,9 @@ public class Figura2D {
    public double ancho;
    public double alto;
 
-
-    public void verDim(){
-        System.out.printf("ancho: %.2f, alto: %.2f",ancho, alto);
-    }
+   public void verDim(){
+       System.out.printf("ancho: %.2f, alto: %.2f",ancho, alto);
+   }
 }
 
 class Triangulo extends Figura2D{
