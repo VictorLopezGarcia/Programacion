@@ -1,10 +1,9 @@
 package VLGt10;
 
-
-public class TrianColor_V9 extends Triangulo_V9 {
+public class TrianColor_v10 extends Triangulo_v10{
     private String color;
 
-    public TrianColor_V9(double ancho, double alto, String estilo, String color, String nombre){
+    public TrianColor_v10(double ancho, double alto, String estilo, String color, String nombre){
         super(ancho, alto, estilo, nombre);
         this.color = color;
     }

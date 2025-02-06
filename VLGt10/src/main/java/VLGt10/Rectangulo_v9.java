@@ -2,12 +2,12 @@ package VLGt10;
 
 
 
-public class Rectangulo_V9 extends Figura2D_V9 {
-    public Rectangulo_V9(double ancho, double alto, String nombre){
+public class Rectangulo_v9 extends Figura2D_v9 {
+    public Rectangulo_v9(double ancho, double alto, String nombre){
         super(ancho, alto, nombre);
     }
 
-    public Rectangulo_V9(double x, String nombre){
+    public Rectangulo_v9(double x, String nombre){
         super(x, nombre);
     }
 
