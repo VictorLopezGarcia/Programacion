@@ -22,6 +22,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="VLGt08_09" target="23" />
       <module name="VLGt09" target="23" />
     </bytecodeTargetLevel>
   </component>
