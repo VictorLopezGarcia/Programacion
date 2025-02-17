@@ -53,5 +53,4 @@ public abstract class PiezaAjedrez_v2 {
         }while (fila < 1 || fila > 8);
         return fila - 1;
     }
-
 }

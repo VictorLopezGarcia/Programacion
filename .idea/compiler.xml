@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="examenFinal" />
+        <module name="examenP32ev" />
         <module name="examenP2ev" />
         <module name="examen" />
         <module name="examenP22e" />

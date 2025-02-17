@@ -16,7 +16,7 @@ public class VLGt10e06 {
             System.out.println("3. Salir");
             System.out.print("Opción: ");
             opcion = teclado.nextInt();
-        }  while (opcion != 3);
+        }  while (opcion > 3 || opcion < 1);
 
         if (opcion == 1) {
             pieza = new AlfilAjedrez_v2(0, 0);
