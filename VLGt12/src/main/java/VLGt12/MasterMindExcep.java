@@ -23,10 +23,10 @@ public ResultadoMasterMind comprobar (String i){
     int b=0, m=0; boolean gano=false, finTurnos=false;
 
     try{
-        excepcionDuplicados(i);
-        excepcionTamano(i);
         excepcionValores(i);
-    }catch (MastermindRepetidoException | MastermindTamanoException | MastermindValorException e){
+        excepcionTamano(i);
+        excepcionDuplicados(i);
+    }catch (MastermindValorException | MastermindRepetidoException | MastermindTamanoException e){
         System.out.println(e.getMessage());
         return new ResultadoMasterMind (i, -1,-1, false,false);
     }
