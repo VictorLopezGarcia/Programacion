@@ -10,9 +10,9 @@
         <module name="examenP32ev" />
         <module name="examenP2ev" />
         <module name="examen" />
-        <module name="examenP22e" />
         <module name="VLGt10" />
         <module name="VLGt02" />
+        <module name="VLGt13" />
         <module name="VLGt01" />
         <module name="VLGt12" />
         <module name="VLGt04" />
@@ -24,6 +24,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="examenP22ev" target="23" />
       <module name="VLGt08_09" target="23" />
       <module name="VLGt09" target="23" />
     </bytecodeTargetLevel>
