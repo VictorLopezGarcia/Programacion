@@ -17,7 +17,7 @@ public class VLGt12e01 {
         try {
             System.out.println("La división de los números es: " + num1 / num2);
         } catch (ArithmeticException e) {
-            System.out.println("No se puede dividir por 0");
+            System.out.println("La división de los números es: " + 0);
         }
 
     }
