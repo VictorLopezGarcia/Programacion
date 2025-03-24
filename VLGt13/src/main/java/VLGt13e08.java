@@ -1,12 +1,13 @@
-import java.io.*;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Scanner;
 
-public class VLGt13e07 {
+public class VLGt13e08 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-
-        try (PrintWriter pw = new PrintWriter(new FileWriter("C:\\Users\\victor.lopezgarcia\\IdeaProjects\\DAM\\VLGt13\\src\\main\\archivos\\alumnos.csv"))) {
-            System.out.println("Escribiendo en el fichero alumnos.csv");
+        try (PrintWriter pw = new PrintWriter(new FileWriter("C:\\Users\\victor.lopezgarcia\\IdeaProjects\\DAM\\VLGt13\\src\\main\\archivos\\alumnos.txt", true))) {
+            System.out.println("Escribiendo en el fichero alumnos.txt");
             String nombre, fecha;
             double nota1, nota2, nota3;
 
@@ -16,7 +17,7 @@ public class VLGt13e07 {
                 if (nombre.equals("Z")){
                     break;
                 }
-                System.out.println("Introce la fecha de nacimiento del alumno (dd/mm/aaaa):");
+                System.out.println("Introce la fecha de nacimiento del alumno (AAAAMMDD):");
                 fecha = teclado.nextLine();
                 System.out.print("Ingrese la nota de la primera evaluación: ");
                 nota1 = Integer.parseInt(teclado.nextLine());
@@ -25,7 +26,7 @@ public class VLGt13e07 {
                 System.out.print("Ingrese la nota de la tercera evaluación: ");
                 nota3 = Integer.parseInt(teclado.nextLine());
 
-                pw.printf("%s;%s;%.2f;%.2f;%.2f%n", nombre, fecha, nota1, nota2, nota3);
+                pw.printf("%-100s%s %06.2f  %06.2f  %06.2f%n", nombre, fecha, nota1, nota2, nota3);
 
             }
 

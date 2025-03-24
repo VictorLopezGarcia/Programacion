@@ -1,5 +1,6 @@
 package VLGt12;
 
+import java.time.DateTimeException;
 import java.time.LocalDate;
 import java.util.Scanner;
 
@@ -30,7 +31,8 @@ public class VLGt12e05 {
     public static boolean validarFecha(int dia, int mes, int ano) {
         try{
             LocalDate fecha = LocalDate.of(ano, mes, dia);
-        }catch (Exception e){
+        }catch (DateTimeException e){
+            System.out.println(e.getMessage());
             return false;
         }
         return true;
