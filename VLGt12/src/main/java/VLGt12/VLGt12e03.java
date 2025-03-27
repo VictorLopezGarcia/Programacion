@@ -11,12 +11,7 @@ public class VLGt12e03 {
         System.out.println("Introduce un número: ");
         try {
             num1 = Integer.parseInt(teclado.nextLine());
-        } catch (NumberFormatException e) {
-            System.out.println("No has introducido un número");
-            return;
-        }
-        System.out.println("Introduce otro número: ");
-        try {
+            System.out.println("Introduce otro número: ");
             num2 = Integer.parseInt(teclado.nextLine());
         } catch (NumberFormatException e) {
             System.out.println("No has introducido un número");
