@@ -19,7 +19,7 @@ public class VLGt12e04 {
             menor = Integer.parseInt(teclado.nextLine());
             System.out.println("Introduce un día de la semana (0-6): ");
             mayor = Integer.parseInt(teclado.nextLine());
-        } catch (NumberFormatException e) {
+        } catch (NumberFormatException e) { // si no se introduce un número
             System.out.println("No has introducido un número");
             return;
         }
@@ -29,7 +29,7 @@ public class VLGt12e04 {
                 media += temperaturas[i];
             }
             media /= (mayor - menor);
-        } catch (ArrayIndexOutOfBoundsException e) {
+        } catch (ArrayIndexOutOfBoundsException e) { // si se introduce un número fuera de rango del array
             media = 0;
         }
 
