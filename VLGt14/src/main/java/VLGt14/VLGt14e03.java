@@ -3,7 +3,7 @@ package VLGt14;
 import java.time.LocalDate;
 import java.util.HashSet;
 
-public class VLGr14e03 {
+public class VLGt14e03 {
     public static void main(String[] args) {
         HashSet<Persona> personas = new HashSet<>();
 
