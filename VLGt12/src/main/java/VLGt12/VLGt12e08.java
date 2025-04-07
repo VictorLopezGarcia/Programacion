@@ -15,7 +15,7 @@ public class VLGt12e08 {
     }
 
     public static void validarCorreo(String correo) throws ExcepcionCorreo{
-        if (correo.length()<5 | !(correo.contains("@") | (correo.contains("@") && !correo.substring(correo.indexOf('@')).contains(".")))) throw new ExcepcionCorreo();
+        if (correo.length()<5 || !(correo.contains("@") || !correo.substring(correo.indexOf('@')).contains("."))) throw new ExcepcionCorreo();
     }
 
     public static class ExcepcionCorreo extends Exception{
