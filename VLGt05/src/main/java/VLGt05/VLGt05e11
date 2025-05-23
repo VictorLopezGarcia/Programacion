@@ -1,0 +1,3 @@
+Mostraría:
+Ya tienes más de 1000 euros: 1100
+Porque la funcion modifica la variable saldo y a la hora de comprobar pasa la variable(modificada) y no la función.

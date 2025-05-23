@@ -1,0 +1,5 @@
+Hay un error ya que al llamar a la funcion retirar 2 veces
+(Aunque este dentro de un condicional) va a ejecutar el codigo dentro de ella que
+retirar el dinero a la vez que comprueba si puede hacerlo.
+
+Por lo tanto va a retirar 10 2 veces quedando el saldo en 10.

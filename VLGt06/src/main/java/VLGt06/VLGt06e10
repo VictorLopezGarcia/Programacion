@@ -1,0 +1,1 @@
+En MovilPrepago haria private el numero y añadiría un getter para poder acceder a él desde fuera de la clase.

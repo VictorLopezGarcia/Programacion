@@ -6,9 +6,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="examenFinal" />
+        <module name="examenP32ev" />
+        <module name="examenP2ev" />
+        <module name="examen" />
+        <module name="VLGt10" />
         <module name="VLGt02" />
+        <module name="VLGt13" />
         <module name="VLGt01" />
+        <module name="VLGt12" />
+        <module name="VLGt04" />
+        <module name="VLGt15" />
+        <module name="VLGt03" />
+        <module name="VLGt14" />
+        <module name="VLGt06" />
+        <module name="VLGt05" />
+        <module name="VLGt08" />
+        <module name="VLGt07" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="examenP22ev" target="23" />
+      <module name="VLGt08_09" target="23" />
+      <module name="VLGt09" target="23" />
+    </bytecodeTargetLevel>
   </component>
 </project>

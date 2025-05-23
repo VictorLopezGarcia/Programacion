@@ -1,0 +1,1 @@
+En CuentaCorriente_v2 haria private el IBAN y añadiría un getter para poder acceder a él desde fuera de la clase.

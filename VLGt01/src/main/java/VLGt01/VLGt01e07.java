@@ -12,14 +12,14 @@ public class VLGt01e07 {
         double k1, k2, l1, l2, sol;
         Scanner teclado = new Scanner(System.in);
         System.out.print("Introduce el kilometraje de la última vez que se repostó: ");
-        k1 = teclado.nextInt();
+        k1 = teclado.nextDouble();
         System.out.print("Introduce el kilometraje actual: ");
-        k2 = teclado.nextInt();
+        k2 = teclado.nextDouble();
         System.out.print("Introduce los litros de gasolina que tenía al finalizar la última vez que repostó: ");
-        l1 = teclado.nextInt();
+        l1 = teclado.nextDouble();
         System.out.print("Introduce la cantidad de gasolina actual: ");
-        l2 = teclado.nextInt();
+        l2 = teclado.nextDouble();
         sol = (l1-l2)*100/(k2 - k1);
-        System.out.println(String.format("El gasto del vehículo cada 100km es de %.2f litros.", sol));
+        System.out.printf("El gasto del vehículo cada 100km es de %.2f litros.", sol);
     }
 }

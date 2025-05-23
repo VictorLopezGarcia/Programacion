@@ -6,10 +6,37 @@
       <list>
         <option value="$PROJECT_DIR$/VLGt01/pom.xml" />
         <option value="$PROJECT_DIR$/VLGt02/VLGt02/pom.xml" />
+        <option value="$PROJECT_DIR$/VLGt03/pom.xml" />
+        <option value="$PROJECT_DIR$/VLGt02/pom.xml" />
+        <option value="$PROJECT_DIR$/VLGt04/pom.xml" />
+        <option value="$PROJECT_DIR$/VLGt05/pom.xml" />
+        <option value="$PROJECT_DIR$/VLGt06/pom.xml" />
+        <option value="$PROJECT_DIR$/VLGt07/pom.xml" />
+        <option value="$PROJECT_DIR$/VLGt08/pom.xml" />
+        <option value="$PROJECT_DIR$/examen/pom.xml" />
+        <option value="$PROJECT_DIR$/examenFinal/pom.xml" />
+        <option value="$PROJECT_DIR$/examenP2ev/pom.xml" />
+        <option value="$PROJECT_DIR$/VLGt09/pom.xml" />
+        <option value="$PROJECT_DIR$/examenP22e/pom.xml" />
+        <option value="$PROJECT_DIR$/VLGt10/pom.xml" />
+        <option value="$PROJECT_DIR$/examenP32ev/pom.xml" />
+        <option value="$PROJECT_DIR$/VLGt12/pom.xml" />
+        <option value="$PROJECT_DIR$/VLGt13/pom.xml" />
+        <option value="$PROJECT_DIR$/VLGt14/pom.xml" />
+        <option value="$PROJECT_DIR$/VLGt15/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/VLGt09/pom.xml" />
+      </set>
+    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="20" project-jdk-type="JavaSDK">
+  <component name="PWA">
+    <option name="enabled" value="true" />
+    <option name="wasEnabledAtLeastOnce" value="true" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_23" default="true" project-jdk-name="openjdk-23" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

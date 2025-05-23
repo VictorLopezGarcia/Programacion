@@ -13,10 +13,10 @@ public class VLGt01e11 {
         Scanner teclado = new Scanner(System.in);
 
         System.out.print("Introduce var1: ");
-        var1 = Math.abs(teclado.nextInt());
+        var1 = Math.abs(teclado.nextDouble());
         System.out.print("Introduce var2: ");
-        var2 = Math.abs(teclado.nextInt());
+        var2 = Math.abs(teclado.nextDouble());
         sol = Math.sqrt(Math.pow(var1, 2) + Math.pow(var2, 2));
-        System.out.println(String.format("La longitud de la hipotenusa del triangulo formado por ese cateto es de %.2f.", sol));
+        System.out.printf("La longitud de la hipotenusa del triangulo formado por ese cateto es de %.2f.", sol);
     }
 }
